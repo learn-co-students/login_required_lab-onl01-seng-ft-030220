@@ -1,0 +1,7 @@
+<h1>Hi! Please Log In</h1>
+
+<%= form_tag '/login', method: 'post' do %>
+  <%= label_tag "Name" %>
+  <input name=name>
+  <%= submit_tag "login" %>
+<% end %>
